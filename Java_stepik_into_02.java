@@ -70,3 +70,31 @@ class Main {
     }
 }
     
+/6.*Создайте четыре переменных разного типа и выведите их на печать, каждое на новой строке. Присвойте переменным значения:
+1)  202
+2)  3.1415
+3)  Java
+4) 5  < 10
+Выведите значения переменных столбиком в этом же порядке.*/
+class Main {
+    public static void main(String[] args) {
+        int y = 2021;
+        double t = 3.1415;
+        String j = "Java";
+        boolean a = true;
+    System.out.println(y+"\n"+t+"\n"+j+"\n"+a);
+    }
+}
+
+/*7.Доработайте программу так, чтобы она считывала строку, а затем выводила эту же строку на печать.
+Примечание. В этой задаче, как и в большинстве других, есть скрытые тесты с другими значениями ввода. Код не должен быть привязан к конкретным данным.*/
+import java.util.Scanner;
+
+class Test {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String st = sc.nextLine();
+        System.out.println(st);
+
+   }
+}
