@@ -52,3 +52,21 @@ class Main {
         System.out.print(myVar);
   }
 }
+
+//4.Напишите программу, выводящую на печать фразу "Я программирую на Java" (без кавычек).
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Я программирую на Java");      
+    }
+}
+
+/*5.Напишите программу, которая присваивает трем переменным значения 100, 200 и 300.
+Выведите на печать значения переменных в столбик, а затем в строку через пробел.*/
+class Main {
+    public static void main(String[] args) {
+        int y = 100, r = 200, t = 300;
+        System.out.print(y+"\n"+r+"\n"+t+"\n");
+        System.out.println(y+" "+r+" "+t);
+    }
+}
+    
