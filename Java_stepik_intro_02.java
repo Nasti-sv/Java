@@ -98,3 +98,15 @@ class Test {
 
    }
 }
+
+//useful link for next task https://javarush.ru/groups/posts/klass-scanner
+//Напишите программу, которая считывает имя пользователя и затем приветствует его.
+    import java.util.Scanner;
+
+class MySolution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String st = sc.nextLine();
+        System.out.println("Привет,"+" "+st);
+    }
+}
