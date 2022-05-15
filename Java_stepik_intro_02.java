@@ -149,3 +149,15 @@ class MySolution {
         System.out.println("Температура воздуха сегодня:"+" "+st+" "+"градусов.");
     }
 }
+//Напишите программу, которая принимает три числа - год, месяц и день и выводит на печать фразу:DD:MM:YYYY.
+import java.util.Scanner;
+
+class MySolution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String y = sc.nextLine();
+        String m = sc.nextLine();
+        String d = sc.nextLine();
+        System.out.println(d+":"+m+":"+y);
+    }
+}
