@@ -146,6 +146,6 @@ class MySolution {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int st = sc.nextInt();
-        System.out.println("Температура воздуха сегодня:"+" "+st);
+        System.out.println("Температура воздуха сегодня:"+" "+st+" "+"градусов.");
     }
 }
