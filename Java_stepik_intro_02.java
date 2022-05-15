@@ -137,3 +137,15 @@ class MySolution {
         System.out.println(st);
     }
 }
+
+/*Напишите программу, которая считывает целое число t - температуру воздуха, и выводит фразу:
+Температура воздуха сегодня: t градусов.*/
+import java.util.Scanner;
+
+class MySolution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int st = sc.nextInt();
+        System.out.println("Температура воздуха сегодня:"+" "+st);
+    }
+}
