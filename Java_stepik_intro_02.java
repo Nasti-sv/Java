@@ -110,3 +110,17 @@ class MySolution {
         System.out.println("Привет,"+" "+st);
     }
 }
+
+//Напишите программу, которая считывает строку, а затем выводит эту же строку на печать 3 раза в столбик.
+import java.util.Scanner;
+
+    class MySolution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String st = sc.nextLine();
+        System.out.println(st);
+        System.out.println(st);
+        System.out.println(st);
+        
+    }
+}
