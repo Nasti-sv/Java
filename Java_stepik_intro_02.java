@@ -124,3 +124,16 @@ import java.util.Scanner;
         
     }
 }
+
+//Напишите программу, которая считывает строку, а затем выводит эту же строку на печать 2 раза в первой строке через пробел, а затем ещё два раза в столбик.
+import java.util.Scanner;
+
+class MySolution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String st = sc.nextLine();
+        System.out.println(st+" "+st);
+        System.out.println(st);
+        System.out.println(st);
+    }
+}
