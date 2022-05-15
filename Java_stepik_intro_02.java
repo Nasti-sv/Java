@@ -161,3 +161,15 @@ class MySolution {
         System.out.println(d+":"+m+":"+y);
     }
 }
+//last
+import java.util.Scanner;
+
+class MyProgram {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    String name = sc.nextLine();
+    String helper = sc.nextLine();
+    String number = sc.nextLine();
+    System.out.println("Привет,"+" "+name+","+" "+"это твой помощник"+" "+helper+"."+"\n"+"У тебя"+" "+number+" "+"новых писем.");
+    }
+}
