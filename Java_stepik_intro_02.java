@@ -173,3 +173,20 @@ class MyProgram {
     System.out.println("Привет,"+" "+name+","+" "+"это твой помощник"+" "+helper+"."+"\n"+"У тебя"+" "+number+" "+"новых писем.");
     }
 }
+
+//Закончите программу таким образом, чтобы она выводила на печать целое число 5. Переменную можно назвать myVar
+class MyNumber {
+    public static void main(String[] args) {
+        int myVar = 5;
+        System.out.print(myVar);
+   }
+}
+
+//Завершите программу, которая выводит на печать сумму чисел 2 и 4. Переменную вывода можно назвать myVar.
+class MyNumber {
+    public static void main(String[] args) {
+        int x = 2; int y = 4;
+        int myVar = x + y;
+        System.out.print(myVar);
+   }
+}
