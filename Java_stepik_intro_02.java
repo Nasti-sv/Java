@@ -190,3 +190,14 @@ class MyNumber {
         System.out.print(myVar);
    }
 }
+//Напишите программу, которая получает два целых числа и выводит их сумму.
+import java.util.Scanner;
+
+class MyNumber {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int numberFirst = sc.nextInt();
+    int numberSecond = sc.nextInt();
+    System.out.println(numberFirst+numberSecond);
+   }
+}
