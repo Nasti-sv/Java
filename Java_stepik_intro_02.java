@@ -261,3 +261,35 @@ class MyNumber {
         System.out.print(myVar);
    }
 }
+
+//На вход подаётся целое число. Найдите его последнюю цифру.
+import java.util.Scanner;
+
+class MyNumber {
+    public static void main(String[] args) {
+    Scanner sc= new Scanner(System.in);
+    int number = sc.nextInt();
+    int myVar = Math.abs(number) % 10;
+        System.out.print(myVar);
+   }
+}
+
+/*ООО "Круче Гугла" нанимает Java-разработчиков. Месячный бюджет на зарплату разработчиков - X, зарплата одного разработчика - Y. Выведите на печать 
+в одной строке через пробел, какое максимальное количество
+разработчиков компания сможет нанять, и какое количество денег из ежемесячного бюджета останется неиспользованным.*/
+
+import java.util.Scanner;
+
+class MyNumber {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int salary = sc.nextInt();
+    int quantity = sc.nextInt();
+    int employees = salary/quantity;
+    int rest = salary%quantity;
+        System.out.println(employees+" "+rest);
+
+   }
+}
+
+ 
