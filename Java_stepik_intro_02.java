@@ -201,3 +201,19 @@ class MyNumber {
     System.out.println(numberFirst+numberSecond);
    }
 }
+
+//На вход подаются два положительных действительных числа - стороны прямоугольника. Посчитайте его площадь и периметр и выведите на отдельных строках.
+import java.util.Scanner;
+
+class MyNumber {
+    public static void main(String[] args) {
+     Scanner sc= new Scanner(System.in);
+     double a = sc.nextDouble();
+     double b = sc.nextDouble();
+     double s = a*b;
+     double p = (a+b)*2;
+     System.out.println(s+"\n"+p);
+        
+     
+   }
+}
