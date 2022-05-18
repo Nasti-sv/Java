@@ -217,3 +217,47 @@ class MyNumber {
      
    }
 }
+
+/*На вход подаётся число x  Посчитайте значение функции \large y = 5x^{2} + 2x + 11y=5x 
+  и выведите на печать.*/
+import java.util.Scanner;
+
+class MyNumber {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    double x = sc.nextDouble();
+    System.out.println((5*(x*x))+(2*x)+11);
+   }
+}
+
+//На вход подаётся целое число n. Выведите в одной строке через пробел само число, его квадрат и куб.
+import java.util.Scanner;
+
+class MyNumber {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int x = sc.nextInt();
+    System.out.println(x+" "+(x*x)+" "+(x*x*x));
+    }
+}
+//На вход подаётся три числа. Выведите на одной строке их среднее арифметическое.
+import java.util.Scanner;
+
+class MyNumber {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    double a = sc.nextDouble();
+    double b = sc.nextDouble();
+    double c = sc.nextDouble();
+    System.out.println((a+b+c)/3);
+   }
+}
+
+//Завершите программу таким образом, чтобы она выводила на печать остаток от деления 41 на 7. Переменную вывода можно назвать myVar.
+class MyNumber {
+    public static void main(String[] args) {
+        int x = 41; int y = 7;
+        int myVar = x%y;
+        System.out.print(myVar);
+   }
+}
