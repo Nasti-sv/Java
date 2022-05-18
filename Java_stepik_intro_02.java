@@ -292,4 +292,18 @@ class MyNumber {
    }
 }
 
- 
+//Реализуйте простые домашние часы. 
+import java.util.Scanner;
+
+class MyNumber {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int x = sc.nextInt();
+     int days = x % 86400;
+        int h = days/3600;
+        int m = (days % 3600)/60;
+        int s = days - (h*3600) - (m*60);
+       
+        System.out.format("%02d"+":"+"%02d"+":"+"%02d",h,m,s);
+   }
+}
