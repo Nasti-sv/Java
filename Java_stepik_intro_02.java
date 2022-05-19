@@ -307,3 +307,11 @@ class MyNumber {
         System.out.format("%02d"+":"+"%02d"+":"+"%02d",h,m,s);
    }
 }
+
+//Измените программу таким образом, чтобы она выводила на печать число 11.
+class myNumber {
+    public static void main(String[] args) {
+        int x = 10;
+        System.out.println(++x);
+   }
+}
