@@ -332,3 +332,17 @@ class MyNumber {
 3)z= 8+0=8 (+= это будет так z= z+x) (и после того как мы переходим к следующей строчке, "х" уменьшается на 1)
 4)x=5+8=13 (у=5 из-за 2 строчки) 
 5) ++х сразу прибавляем +1 и выводится ваш ответ = 14*/
+
+//На вход подаётся натуральное число n. Выведите на печать числа n - 1, n, n + 1 в одну строку, через пробел (см. образец).
+import java.util.Scanner;
+
+class MyNumber {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int u = sc.nextInt();
+    int g = --u;
+    int l = ++u;
+    int k = ++u;
+System.out.println(g+" "+l+" "+k);
+    }
+}
