@@ -358,3 +358,27 @@ class MyProgram {
     System.out.println(x); 
    }
 }
+
+/*На вход подаётся строка текста. Выведите её первый и последний элемент в одну строку через пробел.
+1.импортируем сканер.
+2.создаем ввод строки.
+3.получаем элемент строки по его индексу charAt();
+4.узнаем длину строки(т.к. она может быть длиннее чем в примере) через str.length();
+5.получаем элемент строки по индексу ссылаясь на length();
+6.выводим.
+Оставлю ссылку в которой есть прекрасный пример того, как определить  последний символ в строке 
+http://study-java.ru/uroki-java/rabota-so-strokami-v-java-osnovnye-metody-klassa-string/ */
+
+import java.util.Scanner;
+class MyProgram {
+   public static void main(String[] args) {
+   Scanner sc = new Scanner(System.in);
+   String imput = sc.nextLine();
+   char letter_0 = imput.charAt(0);
+   int last = imput.length()-1;
+   char letter_last = imput.charAt(last);
+   System.out.println(letter_0+" "+letter_last);
+   }
+}
+
+
