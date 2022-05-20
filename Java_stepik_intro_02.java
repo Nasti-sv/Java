@@ -346,3 +346,15 @@ class MyNumber {
 System.out.println(g+" "+l+" "+k);
     }
 }
+
+//На вход подаётся строка. Выведите её длину.
+import java.util.Scanner;
+
+class MyProgram {
+   public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    String u = sc.nextLine();
+    int x = u.length();
+    System.out.println(x); 
+   }
+}
