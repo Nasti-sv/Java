@@ -36,5 +36,42 @@ class MyProgram {
    }
 }
 
+//На вход подаются две строки текста. Выведите на печать true, если строки совпадают, и false - если нет.
+import java.util.Scanner;
 
+class MyProgram {
+   public static void main(String[] args) {
+   Scanner sc = new Scanner(System.in);
+   String firstWord = sc.nextLine();
+   String secondWord = sc.nextLine();
+       System.out.println(firstWord.equals(secondWord));
+   }
+}
 
+//На вход подаются две строки. Объедините их в предложение, а на следующей строке выведите общее количество знаков в предложении.
+import java.util.Scanner;
+
+class MyProgram {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+       String firstLine = sc.nextLine();
+        String secondLine = sc.nextLine();
+        String result = firstLine.concat(" ").concat(secondLine);
+        int quantity = result.length();
+            System.out.println(result+"\n"+quantity);
+    }
+}
+//На вход подаются два числа. Выведите сначала их сумму, а на следующей строке переведите числа в строковый формат и сложите в строковом формате.
+import java.util.Scanner;
+class MyProgram {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int firstNumber = sc.nextInt();
+        int secondNumber  = sc.nextInt();
+        int plus = firstNumber + secondNumber;
+        String convert = Integer.toString(firstNumber);
+        String convertS = Integer.toString(secondNumber);
+        System.out.println(plus + "\n" + convert+convertS);
+
+    }
+}
