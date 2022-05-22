@@ -75,3 +75,18 @@ class MyProgram {
 
     }
 }
+
+//На вход подаются целые числа x и y. Выведите их сумму и разность в формате, соответствующем примеру.
+
+import java.util.Scanner;
+class MyProgram {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        String d = Integer.toString(a);
+        String c = Integer.toString(b);
+        System.out.print("Сложение: "+d+" + "+c+" = "+(a+b)+"\n"+"Вычитание: "+d+" - "+c+" = "+(a-b));
+
+    }
+}
