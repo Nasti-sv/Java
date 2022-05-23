@@ -106,3 +106,36 @@ class MyProg {
         }
 	}
 }
+
+//На вход подаётся целое число. Выведите "YES", если оно нацело делится на 7, и "NO" - если нет.
+import java.util.Scanner;
+class MyProg {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+        int number = sc.nextInt();
+        if (number%7==0){
+            System.out.println("YES");
+            }else{
+            System.out.println("NO");
+        }
+	}
+}
+
+/*чтобы понять что введенное число делится ровно на 7( А чтобы делилось ровно , остаток должен быть равен 0 ) поэтому нужно проверить что остатка не осталось то есть
+( X(введенное число)%7==0 .) проверили что к примеру 7 мы делим с остатком на 7 и получается 0 . если бы мы делили 8 то получили бы 8%7= 1 то есть число
+8 не делится на 7 без остатка*/
+
+//На вход подаётся целое число. Выведите "YES", если оно нацело делится на 7, но не делится на 5, иначе -  "NO".
+
+import java.util.Scanner;
+class MyProg {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+        int number = sc.nextInt();
+        if (number%7 == 0 && number%5!= 0) {
+            System.out.println("YES");
+        }else{
+            System.out.println("NO");
+        }
+	}
+}
