@@ -22,4 +22,13 @@ class mySolution{
    }
 }
        
- //
+ //На вход подаются два целых числа.  Выведите на печать true, если их сумма чётна, а произведение - нечётно, и false - в противном случае.
+import java.util.Scanner;
+class MyProgram {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        System.out.print(((x+y) % 2 == 0 && (x*y) % 2 != 0)?"true":"false");
+	}
+}
