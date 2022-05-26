@@ -32,3 +32,17 @@ class MyProgram {
         System.out.print(((x+y) % 2 == 0 && (x*y) % 2 != 0)?"true":"false");
 	}
 }
+
+//На вход подаются три целых числа. Выведите true, если среди них есть ровно два чётных, и false - если нет.
+import java.util.Scanner;
+class MyProgram {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt(), y = sc.nextInt(), k = sc.nextInt();
+        System.out.print((x%2+y%2+k%2==1)?"true":"false");
+	}
+}
+
+/*Остаток от деления на 2: для четных - 0, для нечетных - 1. По условию, у тебя должно получаться 1, т.к. только одно число нечетное.
+остаток от деления нечетного числа на 2 равен 1, от четного = 0. То есть сумма остатков двух четных и одного нечетного чисел всегда равна = 0+0+1 = 1.
+Вот это условие и проверяем.*/
